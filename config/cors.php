@@ -16,16 +16,9 @@ return [
     */
 
 
-
-
-
-    'exposed_headers' => [],
-
-
-
     'paths' => ['api/*'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['https://hair-client-main-production.up.railway.app'],
+    'allowed_origins' => ['*'],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'expose_headers' => [],
